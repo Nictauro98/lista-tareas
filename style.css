@@ -1,0 +1,97 @@
+/* Estilos comunes */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightseagreen;
+}
+
+.container {
+    width: 30%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+}
+
+.tarea {
+    padding: 1rem;
+    width: 100%;
+    outline: none;
+}
+
+.btn-add {
+    padding: 5px 15px;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 1.4rem;
+    border-radius: 3px;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: rgb(28, 145, 139);
+}
+
+/* Estilos para las opciones */
+.opciones .checkbox{
+    
+}
+
+/* Estilos para la lista de tareas */
+.tareaList {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(153, 169, 185);
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+
+p {
+    color: black;
+    width: 85%;
+    padding: 0 0.5rem;
+    overflow-wrap: break-word;
+}
+
+.btn-del {
+    padding: 10px 15px;
+    width: auto;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+
+.btn-del:hover {
+    cursor: pointer;
+    background-color: rgb(194, 0, 0);
+}
+
+/* Estilos para el mensaje de lista vacía */
+.empty {
+    color: darkslategrey
+}
